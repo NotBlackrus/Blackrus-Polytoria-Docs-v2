@@ -1,0 +1,14 @@
+<?xml?>
+<ClassDef>
+  <Name>ValueBase</Name>
+  <BaseType>Instance</BaseType>
+  <Events>
+    <Name>Changed</Name>
+    <Arguments></Arguments>
+    <Description>Missing Documentation</Description>
+  </Events>
+  <IsStatic>false</IsStatic>
+  <IsAbstract>true</IsAbstract>
+  <IsInstantiatable>false</IsInstantiatable>
+  <Description>Missing Documentation</Description>
+</ClassDef>

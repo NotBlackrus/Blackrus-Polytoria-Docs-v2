@@ -1,0 +1,31 @@
+<?xml?>
+<ClassDef>
+  <Name>CharacterModel</Name>
+  <BaseType>Dynamic</BaseType>
+  <Properties>
+    <Name>Animator</Name>
+    <Type>Animator</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Methods>
+    <Name>GetAttachment</Name>
+    <ReturnType>Dynamic</ReturnType>
+    <Parameters>
+      <Name>attachmentEnum</Name>
+      <Type>CharacterAttachmentEnum</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <IsStatic>false</IsStatic>
+  <IsAbstract>false</IsAbstract>
+  <IsInstantiatable>true</IsInstantiatable>
+  <Description>Missing Documentation</Description>
+</ClassDef>

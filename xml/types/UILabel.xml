@@ -1,0 +1,89 @@
+<?xml?>
+<ClassDef>
+  <Name>UILabel</Name>
+  <BaseType>UIView</BaseType>
+  <Properties>
+    <Name>Text</Name>
+    <Type>string</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>TextColor</Name>
+    <Type>Color</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>OutlineWidth</Name>
+    <Type>number</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>OutlineColor</Name>
+    <Type>Color</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>HorizontalAlignment</Name>
+    <Type>TextHorizontalAlignmentEnum</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>VerticalAlignment</Name>
+    <Type>TextVerticalAlignmentEnum</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>FontSize</Name>
+    <Type>number</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>UseRichText</Name>
+    <Type>boolean</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>FontAsset</Name>
+    <Type>FontAsset</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>Font</Name>
+    <Type>BuiltInTextFontPresetEnum</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>true</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <IsStatic>false</IsStatic>
+  <IsAbstract>false</IsAbstract>
+  <IsInstantiatable>true</IsInstantiatable>
+  <Description>Missing Documentation</Description>
+</ClassDef>

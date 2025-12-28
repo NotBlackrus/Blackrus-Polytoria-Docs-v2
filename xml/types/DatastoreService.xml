@@ -1,0 +1,23 @@
+<?xml?>
+<ClassDef>
+  <Name>DatastoreService</Name>
+  <BaseType>Instance</BaseType>
+  <Methods>
+    <Name>GetDatastore</Name>
+    <ReturnType>Datastore</ReturnType>
+    <Parameters>
+      <Name>key</Name>
+      <Type>string</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <IsStatic>true</IsStatic>
+  <IsAbstract>false</IsAbstract>
+  <IsInstantiatable>false</IsInstantiatable>
+  <Description>Missing Documentation</Description>
+</ClassDef>

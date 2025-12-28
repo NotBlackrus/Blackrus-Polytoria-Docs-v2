@@ -1,0 +1,99 @@
+<?xml?>
+<ClassDef>
+  <Name>CaptureService</Name>
+  <BaseType>Instance</BaseType>
+  <Properties>
+    <Name>OnCooldown</Name>
+    <Type>boolean</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>true</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>CanCapture</Name>
+    <Type>boolean</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>DefaultCaptureOverlay</Name>
+    <Type>UIField</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>SpectatorAttach</Name>
+    <Type>Dynamic</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Methods>
+    <Name>TakePhotoAtDynamic</Name>
+    <ReturnType>nil</ReturnType>
+    <Parameters>
+      <Name>dyn</Name>
+      <Type>Dynamic</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <Parameters>
+      <Name>photoSize</Name>
+      <Type>Vector2</Type>
+      <IsOptional>true</IsOptional>
+      <DefaultValue/>
+    </Parameters>
+    <Parameters>
+      <Name>overlay</Name>
+      <Type>UIField</Type>
+      <IsOptional>true</IsOptional>
+      <DefaultValue/>
+    </Parameters>
+    <IsAsync>true</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>TakePhotoAt</Name>
+    <ReturnType>nil</ReturnType>
+    <Parameters>
+      <Name>pos</Name>
+      <Type>Vector3</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <Parameters>
+      <Name>rot</Name>
+      <Type>Vector3</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <Parameters>
+      <Name>photoSize</Name>
+      <Type>Vector2</Type>
+      <IsOptional>true</IsOptional>
+      <DefaultValue/>
+    </Parameters>
+    <Parameters>
+      <Name>overlay</Name>
+      <Type>UIField</Type>
+      <IsOptional>true</IsOptional>
+      <DefaultValue/>
+    </Parameters>
+    <IsAsync>true</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <IsStatic>true</IsStatic>
+  <IsAbstract>false</IsAbstract>
+  <IsInstantiatable>false</IsInstantiatable>
+  <Description>Missing Documentation</Description>
+</ClassDef>

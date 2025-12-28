@@ -1,0 +1,9 @@
+<?xml?>
+<ClassDef>
+  <Name>AudioAsset</Name>
+  <BaseType>ResourceAsset</BaseType>
+  <IsStatic>false</IsStatic>
+  <IsAbstract>true</IsAbstract>
+  <IsInstantiatable>false</IsInstantiatable>
+  <Description>Missing Documentation</Description>
+</ClassDef>

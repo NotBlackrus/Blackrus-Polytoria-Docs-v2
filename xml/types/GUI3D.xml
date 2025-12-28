@@ -1,0 +1,41 @@
+<?xml?>
+<ClassDef>
+  <Name>GUI3D</Name>
+  <BaseType>Dynamic</BaseType>
+  <Properties>
+    <Name>CanvasSize</Name>
+    <Type>Vector2</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>Shaded</Name>
+    <Type>boolean</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>FaceCamera</Name>
+    <Type>boolean</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>Transparent</Name>
+    <Type>boolean</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <IsStatic>false</IsStatic>
+  <IsAbstract>false</IsAbstract>
+  <IsInstantiatable>true</IsInstantiatable>
+  <Description>Missing Documentation</Description>
+</ClassDef>

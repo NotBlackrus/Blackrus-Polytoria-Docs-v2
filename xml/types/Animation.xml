@@ -1,0 +1,9 @@
+<?xml?>
+<ClassDef>
+  <Name>Animation</Name>
+  <BaseType>Instance</BaseType>
+  <IsStatic>false</IsStatic>
+  <IsAbstract>false</IsAbstract>
+  <IsInstantiatable>true</IsInstantiatable>
+  <Description>Missing Documentation</Description>
+</ClassDef>

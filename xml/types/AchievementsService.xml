@@ -1,0 +1,122 @@
+<?xml?>
+<ClassDef>
+  <Name>AchievementsService</Name>
+  <BaseType>Instance</BaseType>
+  <Properties>
+    <Name>UseAchievementSound</Name>
+    <Type>boolean</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>NotifyAchievements</Name>
+    <Type>boolean</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Methods>
+    <Name>Award</Name>
+    <ReturnType>nil</ReturnType>
+    <Parameters>
+      <Name>userID</Name>
+      <Type>number</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <Parameters>
+      <Name>achievementID</Name>
+      <Type>number</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <Parameters>
+      <Name>callback</Name>
+      <Type>function</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>AwardAsync</Name>
+    <ReturnType>nil</ReturnType>
+    <Parameters>
+      <Name>userID</Name>
+      <Type>number</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <Parameters>
+      <Name>achievementID</Name>
+      <Type>number</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>true</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>HasAchievement</Name>
+    <ReturnType>nil</ReturnType>
+    <Parameters>
+      <Name>userID</Name>
+      <Type>number</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <Parameters>
+      <Name>achievementID</Name>
+      <Type>number</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <Parameters>
+      <Name>callback</Name>
+      <Type>function</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>HasAchievementAsync</Name>
+    <ReturnType>boolean</ReturnType>
+    <Parameters>
+      <Name>userID</Name>
+      <Type>number</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <Parameters>
+      <Name>achievementID</Name>
+      <Type>number</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Events>
+    <Name>GotAchievement</Name>
+    <Arguments></Arguments>
+    <Description>Missing Documentation</Description>
+  </Events>
+  <IsStatic>true</IsStatic>
+  <IsAbstract>false</IsAbstract>
+  <IsInstantiatable>false</IsInstantiatable>
+  <Description>Missing Documentation</Description>
+</ClassDef>

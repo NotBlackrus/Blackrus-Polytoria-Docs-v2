@@ -1,0 +1,51 @@
+<?xml?>
+<ClassDef>
+  <Name>InsertService</Name>
+  <BaseType>Instance</BaseType>
+  <Methods>
+    <Name>ModelAsync</Name>
+    <ReturnType>Instance</ReturnType>
+    <Parameters>
+      <Name>id</Name>
+      <Type>number</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>true</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>AccessoryAsync</Name>
+    <ReturnType>Accessory</ReturnType>
+    <Parameters>
+      <Name>id</Name>
+      <Type>number</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>true</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>ToolAsync</Name>
+    <ReturnType>Tool</ReturnType>
+    <Parameters>
+      <Name>id</Name>
+      <Type>number</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>true</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <IsStatic>true</IsStatic>
+  <IsAbstract>false</IsAbstract>
+  <IsInstantiatable>false</IsInstantiatable>
+  <Description>Missing Documentation</Description>
+</ClassDef>

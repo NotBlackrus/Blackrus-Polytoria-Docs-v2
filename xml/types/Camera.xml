@@ -1,0 +1,339 @@
+<?xml?>
+<ClassDef>
+  <Name>Camera</Name>
+  <BaseType>Dynamic</BaseType>
+  <Properties>
+    <Name>Mode</Name>
+    <Type>CameraModeEnum</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>FOV</Name>
+    <Type>number</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>ClipThroughWalls</Name>
+    <Type>boolean</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>MinDistance</Name>
+    <Type>number</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>MaxDistance</Name>
+    <Type>number</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>Distance</Name>
+    <Type>number</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>ScrollSensitivity</Name>
+    <Type>number</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>Orthographic</Name>
+    <Type>boolean</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>FollowLerp</Name>
+    <Type>boolean</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>LerpSpeed</Name>
+    <Type>number</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>OrthographicSize</Name>
+    <Type>number</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>PositionOffset</Name>
+    <Type>Vector3</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>RotationOffset</Name>
+    <Type>Vector3</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>IsFirstPerson</Name>
+    <Type>boolean</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>true</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>CanLock</Name>
+    <Type>boolean</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>SensitivityMultiplier</Name>
+    <Type>number</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>Sensitivity</Name>
+    <Type>number</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>true</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>HorizontalSpeed</Name>
+    <Type>number</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>VerticalSpeed</Name>
+    <Type>number</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>ScrollLerpSpeed</Name>
+    <Type>number</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>CtrlLocked</Name>
+    <Type>boolean</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>AlwaysLocked</Name>
+    <Type>boolean</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>Target</Name>
+    <Type>Dynamic</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Methods>
+    <Name>ViewportPointToRay</Name>
+    <ReturnType>RayResult</ReturnType>
+    <Parameters>
+      <Name>pos</Name>
+      <Type>Vector2</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <Parameters>
+      <Name>ignoreList</Name>
+      <Type>table</Type>
+      <IsOptional>true</IsOptional>
+      <DefaultValue/>
+    </Parameters>
+    <Parameters>
+      <Name>maxDistance</Name>
+      <Type>number</Type>
+      <IsOptional>true</IsOptional>
+      <DefaultValue>10000</DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>ScreenPointToRay</Name>
+    <ReturnType>RayResult</ReturnType>
+    <Parameters>
+      <Name>pos</Name>
+      <Type>Vector2</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <Parameters>
+      <Name>ignoreList</Name>
+      <Type>table</Type>
+      <IsOptional>true</IsOptional>
+      <DefaultValue/>
+    </Parameters>
+    <Parameters>
+      <Name>maxDistance</Name>
+      <Type>number</Type>
+      <IsOptional>true</IsOptional>
+      <DefaultValue>10000</DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>ViewportToScreenPoint</Name>
+    <ReturnType>Vector2</ReturnType>
+    <Parameters>
+      <Name>pos</Name>
+      <Type>Vector2</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>ViewportToWorldPoint</Name>
+    <ReturnType>Vector3</ReturnType>
+    <Parameters>
+      <Name>pos</Name>
+      <Type>Vector2</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>WorldToViewportPoint</Name>
+    <ReturnType>Vector2</ReturnType>
+    <Parameters>
+      <Name>pos</Name>
+      <Type>Vector3</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>WorldToScreenPoint</Name>
+    <ReturnType>Vector2</ReturnType>
+    <Parameters>
+      <Name>pos</Name>
+      <Type>Vector3</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>ScreenToViewportPoint</Name>
+    <ReturnType>Vector2</ReturnType>
+    <Parameters>
+      <Name>pos</Name>
+      <Type>Vector2</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>ScreenToWorldPoint</Name>
+    <ReturnType>Vector3</ReturnType>
+    <Parameters>
+      <Name>pos</Name>
+      <Type>Vector2</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Events>
+    <Name>FirstPersonEntered</Name>
+    <Arguments></Arguments>
+    <Description>Missing Documentation</Description>
+  </Events>
+  <Events>
+    <Name>FirstPersonExited</Name>
+    <Arguments></Arguments>
+    <Description>Missing Documentation</Description>
+  </Events>
+  <IsStatic>false</IsStatic>
+  <IsAbstract>false</IsAbstract>
+  <IsInstantiatable>true</IsInstantiatable>
+  <Description>Missing Documentation</Description>
+</ClassDef>

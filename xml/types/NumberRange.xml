@@ -1,0 +1,45 @@
+<?xml?>
+<ClassDef>
+  <Name>NumberRange</Name>
+  <BaseType>ValueType</BaseType>
+  <Properties>
+    <Name>Min</Name>
+    <Type>number</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>Max</Name>
+    <Type>number</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Methods>
+    <Name>New</Name>
+    <ReturnType>NumberRange</ReturnType>
+    <Parameters>
+      <Name>from</Name>
+      <Type>number</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <Parameters>
+      <Name>to</Name>
+      <Type>number</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>true</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <IsStatic>false</IsStatic>
+  <IsAbstract>false</IsAbstract>
+  <IsInstantiatable>false</IsInstantiatable>
+  <Description>Missing Documentation</Description>
+</ClassDef>

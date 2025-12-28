@@ -1,0 +1,230 @@
+<?xml?>
+<ClassDef>
+  <Name>InputService</Name>
+  <BaseType>Instance</BaseType>
+  <Properties>
+    <Name>IsWindowFocused</Name>
+    <Type>boolean</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>true</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>IsTouchscreen</Name>
+    <Type>boolean</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>true</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>IsGameFocused</Name>
+    <Type>boolean</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>true</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>IsInputFocused</Name>
+    <Type>boolean</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>true</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>IsGamepadConnected</Name>
+    <Type>boolean</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>true</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>IsMenuOpened</Name>
+    <Type>boolean</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>true</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>CursorLocked</Name>
+    <Type>boolean</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>CursorVisible</Name>
+    <Type>boolean</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>MousePosition</Name>
+    <Type>Vector2</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>true</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>ScreenWidth</Name>
+    <Type>number</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>true</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>ScreenHeight</Name>
+    <Type>number</Type>
+    <IsAccessibleByScripts>true</IsAccessibleByScripts>
+    <IsReadOnly>true</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Methods>
+    <Name>GetMouseWorldPosition</Name>
+    <ReturnType>Vector3</ReturnType>
+    <Parameters>
+      <Name>ignoreList</Name>
+      <Type>table</Type>
+      <IsOptional>true</IsOptional>
+      <DefaultValue/>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>GetVector2</Name>
+    <ReturnType>InputActionVector2</ReturnType>
+    <Parameters>
+      <Name>actionName</Name>
+      <Type>string</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>GetButton</Name>
+    <ReturnType>InputActionButton</ReturnType>
+    <Parameters>
+      <Name>actionName</Name>
+      <Type>string</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>GetAxis</Name>
+    <ReturnType>InputActionAxis</ReturnType>
+    <Parameters>
+      <Name>actionName</Name>
+      <Type>string</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>BindButton</Name>
+    <ReturnType>InputActionButton</ReturnType>
+    <Parameters>
+      <Name>name</Name>
+      <Type>string</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>BindAxis</Name>
+    <ReturnType>InputActionAxis</ReturnType>
+    <Parameters>
+      <Name>name</Name>
+      <Type>string</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>BindVector2</Name>
+    <ReturnType>InputActionVector2</ReturnType>
+    <Parameters>
+      <Name>name</Name>
+      <Type>string</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Events>
+    <Name>GameFocused</Name>
+    <Arguments></Arguments>
+    <Description>Missing Documentation</Description>
+  </Events>
+  <Events>
+    <Name>GameUnfocused</Name>
+    <Arguments></Arguments>
+    <Description>Missing Documentation</Description>
+  </Events>
+  <Events>
+    <Name>GamepadConnected</Name>
+    <Arguments></Arguments>
+    <Description>Missing Documentation</Description>
+  </Events>
+  <Events>
+    <Name>GamepadDisconnected</Name>
+    <Arguments></Arguments>
+    <Description>Missing Documentation</Description>
+  </Events>
+  <Events>
+    <Name>KeyDown</Name>
+    <Arguments></Arguments>
+    <Description>Missing Documentation</Description>
+  </Events>
+  <Events>
+    <Name>KeyUp</Name>
+    <Arguments></Arguments>
+    <Description>Missing Documentation</Description>
+  </Events>
+  <Events>
+    <Name>AxisValueChanged</Name>
+    <Arguments></Arguments>
+    <Description>Missing Documentation</Description>
+  </Events>
+  <IsStatic>true</IsStatic>
+  <IsAbstract>false</IsAbstract>
+  <IsInstantiatable>false</IsInstantiatable>
+  <Description>Missing Documentation</Description>
+</ClassDef>

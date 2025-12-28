@@ -1,0 +1,73 @@
+<?xml?>
+<ClassDef>
+  <Name>Script</Name>
+  <BaseType>Instance</BaseType>
+  <Properties>
+    <Name>Source</Name>
+    <Type>string</Type>
+    <IsAccessibleByScripts>false</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>LinkedScript</Name>
+    <Type>FileLinkAsset</Type>
+    <IsAccessibleByScripts>false</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Properties>
+    <Name>Compatibility</Name>
+    <Type>boolean</Type>
+    <IsAccessibleByScripts>false</IsAccessibleByScripts>
+    <IsReadOnly>false</IsReadOnly>
+    <IsObsolete>false</IsObsolete>
+    <Description>Missing Documentation</Description>
+  </Properties>
+  <Methods>
+    <Name>Call</Name>
+    <ReturnType>nil</ReturnType>
+    <Parameters>
+      <Name>funcName</Name>
+      <Type>string</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <Parameters>
+      <Name>args</Name>
+      <Type>any</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>CallAsync</Name>
+    <ReturnType>nil</ReturnType>
+    <Parameters>
+      <Name>funcName</Name>
+      <Type>string</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <Parameters>
+      <Name>args</Name>
+      <Type>any</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <IsStatic>false</IsStatic>
+  <IsAbstract>true</IsAbstract>
+  <IsInstantiatable>false</IsInstantiatable>
+  <Description>Missing Documentation</Description>
+</ClassDef>

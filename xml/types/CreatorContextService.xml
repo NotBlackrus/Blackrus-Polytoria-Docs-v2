@@ -1,0 +1,9 @@
+<?xml?>
+<ClassDef>
+  <Name>CreatorContextService</Name>
+  <BaseType>Instance</BaseType>
+  <IsStatic>true</IsStatic>
+  <IsAbstract>false</IsAbstract>
+  <IsInstantiatable>false</IsInstantiatable>
+  <Description>Missing Documentation</Description>
+</ClassDef>

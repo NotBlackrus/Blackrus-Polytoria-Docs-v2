@@ -1,0 +1,9 @@
+<?xml?>
+<ClassDef>
+  <Name>InputAction</Name>
+  <BaseType/>
+  <IsStatic>false</IsStatic>
+  <IsAbstract>false</IsAbstract>
+  <IsInstantiatable>false</IsInstantiatable>
+  <Description>Missing Documentation</Description>
+</ClassDef>

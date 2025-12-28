@@ -1,0 +1,17 @@
+<?xml?>
+<ClassDef>
+  <Name>TweenService</Name>
+  <BaseType>Instance</BaseType>
+  <Methods>
+    <Name>NewTween</Name>
+    <ReturnType>TweenObject</ReturnType>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <IsStatic>true</IsStatic>
+  <IsAbstract>false</IsAbstract>
+  <IsInstantiatable>false</IsInstantiatable>
+  <Description>Missing Documentation</Description>
+</ClassDef>

@@ -1,0 +1,59 @@
+<?xml?>
+<ClassDef>
+  <Name>CreatorHistory</Name>
+  <BaseType>Instance</BaseType>
+  <Methods>
+    <Name>NewAction</Name>
+    <ReturnType>nil</ReturnType>
+    <Parameters>
+      <Name>title</Name>
+      <Type>string</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>AddDoCallback</Name>
+    <ReturnType>nil</ReturnType>
+    <Parameters>
+      <Name>callback</Name>
+      <Type>function</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>AddUndoCallback</Name>
+    <ReturnType>nil</ReturnType>
+    <Parameters>
+      <Name>callback</Name>
+      <Type>function</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>CommitAction</Name>
+    <ReturnType>nil</ReturnType>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <IsStatic>false</IsStatic>
+  <IsAbstract>false</IsAbstract>
+  <IsInstantiatable>false</IsInstantiatable>
+  <Description>Missing Documentation</Description>
+</ClassDef>

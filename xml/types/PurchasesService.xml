@@ -1,0 +1,49 @@
+<?xml?>
+<ClassDef>
+  <Name>PurchasesService</Name>
+  <BaseType>Instance</BaseType>
+  <Methods>
+    <Name>Prompt</Name>
+    <ReturnType>nil</ReturnType>
+    <Parameters>
+      <Name>player</Name>
+      <Type>Player</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <Parameters>
+      <Name>assetID</Name>
+      <Type>number</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>OwnsItemAsync</Name>
+    <ReturnType>boolean</ReturnType>
+    <Parameters>
+      <Name>player</Name>
+      <Type>Player</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <Parameters>
+      <Name>assetID</Name>
+      <Type>number</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>true</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <IsStatic>true</IsStatic>
+  <IsAbstract>false</IsAbstract>
+  <IsInstantiatable>false</IsInstantiatable>
+  <Description>Missing Documentation</Description>
+</ClassDef>

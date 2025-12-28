@@ -1,0 +1,65 @@
+<?xml?>
+<ClassDef>
+  <Name>AssetService</Name>
+  <BaseType>Instance</BaseType>
+  <Methods>
+    <Name>NewAsset</Name>
+    <ReturnType>BaseAsset</ReturnType>
+    <Parameters>
+      <Name>assetClassName</Name>
+      <Type>string</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>NewPTImage</Name>
+    <ReturnType>PTImageAsset</ReturnType>
+    <Parameters>
+      <Name>imgID</Name>
+      <Type>number</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>NewPTAudio</Name>
+    <ReturnType>PTAudioAsset</ReturnType>
+    <Parameters>
+      <Name>audioID</Name>
+      <Type>number</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>NewPTMesh</Name>
+    <ReturnType>PTMeshAsset</ReturnType>
+    <Parameters>
+      <Name>assetID</Name>
+      <Type>number</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <IsStatic>true</IsStatic>
+  <IsAbstract>false</IsAbstract>
+  <IsInstantiatable>false</IsInstantiatable>
+  <Description>Missing Documentation</Description>
+</ClassDef>

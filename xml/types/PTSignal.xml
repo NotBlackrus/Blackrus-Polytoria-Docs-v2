@@ -1,0 +1,59 @@
+<?xml?>
+<ClassDef>
+  <Name>PTSignal</Name>
+  <BaseType/>
+  <Methods>
+    <Name>Connect</Name>
+    <ReturnType>nil</ReturnType>
+    <Parameters>
+      <Name>action</Name>
+      <Type>function</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>Disconnect</Name>
+    <ReturnType>nil</ReturnType>
+    <Parameters>
+      <Name>action</Name>
+      <Type>function</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>Wait</Name>
+    <ReturnType>any</ReturnType>
+    <IsAsync>true</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <Methods>
+    <Name>Once</Name>
+    <ReturnType>nil</ReturnType>
+    <Parameters>
+      <Name>action</Name>
+      <Type>function</Type>
+      <IsOptional>false</IsOptional>
+      <DefaultValue></DefaultValue>
+    </Parameters>
+    <IsAsync>false</IsAsync>
+    <IsObsolete>false</IsObsolete>
+    <IsStatic>false</IsStatic>
+    <Description>Missing Documentation</Description>
+  </Methods>
+  <IsStatic>false</IsStatic>
+  <IsAbstract>false</IsAbstract>
+  <IsInstantiatable>false</IsInstantiatable>
+  <Description>Missing Documentation</Description>
+</ClassDef>
