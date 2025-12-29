@@ -5,5 +5,5 @@
   <IsStatic>false</IsStatic>
   <IsAbstract>false</IsAbstract>
   <IsInstantiatable>true</IsInstantiatable>
-  <Description>Missing Documentation</Description>
+  <Description>ClientScript is a script that runs locally for each player. It can only see what the player can see.</Description>
 </ClassDef>

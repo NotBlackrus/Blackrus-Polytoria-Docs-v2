@@ -8,7 +8,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>true</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Returns the point count of this color series</Description>
   </Properties>
   <Methods>
     <Name>New</Name>
@@ -16,7 +16,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>true</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Create new color range with 2 default points</Description>
   </Methods>
   <Methods>
     <Name>New</Name>
@@ -36,10 +36,10 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>true</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Create color series by this color range</Description>
   </Methods>
   <IsStatic>false</IsStatic>
   <IsAbstract>false</IsAbstract>
   <IsInstantiatable>false</IsInstantiatable>
-  <Description>Missing Documentation</Description>
+  <Description>Color series is a data type that represents a collection of color and points, also known as gradient.</Description>
 </ClassDef>

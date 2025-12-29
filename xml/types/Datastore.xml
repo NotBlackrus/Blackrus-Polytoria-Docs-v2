@@ -66,5 +66,5 @@
   <IsStatic>false</IsStatic>
   <IsAbstract>false</IsAbstract>
   <IsInstantiatable>false</IsInstantiatable>
-  <Description>Missing Documentation</Description>
+  <Description>Datastore is an object that represent datastore connection.</Description>
 </ClassDef>

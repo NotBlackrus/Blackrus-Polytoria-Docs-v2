@@ -8,7 +8,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Red color component</Description>
   </Properties>
   <Properties>
     <Name>G</Name>
@@ -16,7 +16,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Green color component</Description>
   </Properties>
   <Properties>
     <Name>B</Name>
@@ -24,7 +24,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Blue color component</Description>
   </Properties>
   <Properties>
     <Name>A</Name>
@@ -32,7 +32,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Alpha (opacity) color component</Description>
   </Properties>
   <Methods>
     <Name>New</Name>
@@ -40,7 +40,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>true</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Creates a new black color.</Description>
   </Methods>
   <Methods>
     <Name>New</Name>
@@ -54,7 +54,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>true</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Creates a new Color with an R, G and B value of `d`</Description>
   </Methods>
   <Methods>
     <Name>New</Name>
@@ -80,7 +80,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>true</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Creates a new Color with the set R, G and B values and an alpha value of 1</Description>
   </Methods>
   <Methods>
     <Name>New</Name>
@@ -112,7 +112,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>true</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Creates a new Color with the set R, G, B and A values</Description>
   </Methods>
   <Methods>
     <Name>Random</Name>
@@ -120,7 +120,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>true</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Returns a random color with an alpha value of 1.</Description>
   </Methods>
   <Methods>
     <Name>FromHex</Name>
@@ -134,7 +134,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>true</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Creates a new Color from the specified hex value.</Description>
   </Methods>
   <Methods>
     <Name>Lerp</Name>
@@ -160,10 +160,12 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>true</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Linearly interpolates colors a and b by t.</Description>
   </Methods>
   <IsStatic>false</IsStatic>
   <IsAbstract>false</IsAbstract>
   <IsInstantiatable>false</IsInstantiatable>
-  <Description>Missing Documentation</Description>
+  <Description>Color is a data type that represents a color.
+  
+  The alpha property is between 0 and 1. 0 is fully transparent and 1 is fully visible.</Description>
 </ClassDef>

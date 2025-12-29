@@ -8,7 +8,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The animator for this character</Description>
   </Properties>
   <Methods>
     <Name>GetAttachment</Name>
@@ -22,10 +22,10 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Get attachment dynamic from this character</Description>
   </Methods>
   <IsStatic>false</IsStatic>
   <IsAbstract>false</IsAbstract>
   <IsInstantiatable>true</IsInstantiatable>
-  <Description>Missing Documentation</Description>
+  <Description>Base class for Character Models</Description>
 </ClassDef>

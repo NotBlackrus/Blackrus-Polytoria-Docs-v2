@@ -14,7 +14,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Create new asset with the class name</Description>
   </Methods>
   <Methods>
     <Name>NewPTImage</Name>
@@ -28,7 +28,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Create new image from Polytoria with the target ID</Description>
   </Methods>
   <Methods>
     <Name>NewPTAudio</Name>
@@ -42,7 +42,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Create new audio from Polytoria with the target ID</Description>
   </Methods>
   <Methods>
     <Name>NewPTMesh</Name>
@@ -56,10 +56,10 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Create new mesh from Polytoria with the target ID</Description>
   </Methods>
   <IsStatic>true</IsStatic>
   <IsAbstract>false</IsAbstract>
   <IsInstantiatable>false</IsInstantiatable>
-  <Description>Missing Documentation</Description>
+  <Description>Service for managing assets</Description>
 </ClassDef>

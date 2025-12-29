@@ -292,7 +292,7 @@
   </Methods>
   <Methods>
     <Name>GetBounds</Name>
-    <ReturnType>Aabb</ReturnType>
+    <ReturnType>Bounds</ReturnType>
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
@@ -301,5 +301,5 @@
   <IsStatic>false</IsStatic>
   <IsAbstract>false</IsAbstract>
   <IsInstantiatable>true</IsInstantiatable>
-  <Description>Missing Documentation</Description>
+  <Description>Dynamic is the base class where all objects with a position, rotation and scale derive from.</Description>
 </ClassDef>

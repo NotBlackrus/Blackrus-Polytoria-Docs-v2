@@ -8,7 +8,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines or returns the camera&apos;s current mode.</Description>
   </Properties>
   <Properties>
     <Name>FOV</Name>
@@ -16,7 +16,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines or returns the camera&apos;s field of view.</Description>
   </Properties>
   <Properties>
     <Name>ClipThroughWalls</Name>
@@ -24,7 +24,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines whether or not the camera should clip through walls.</Description>
   </Properties>
   <Properties>
     <Name>MinDistance</Name>
@@ -32,7 +32,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The camera&apos;s minimum distance from the player in Follow mode.</Description>
   </Properties>
   <Properties>
     <Name>MaxDistance</Name>
@@ -40,7 +40,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines camera&apos;s maximum distance from the player in Follow mode.</Description>
   </Properties>
   <Properties>
     <Name>Distance</Name>
@@ -48,7 +48,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines the distance between the camera and the player when the camera is in Follow mode.</Description>
   </Properties>
   <Properties>
     <Name>ScrollSensitivity</Name>
@@ -56,7 +56,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines the scroll move speed of the camera.</Description>
   </Properties>
   <Properties>
     <Name>Orthographic</Name>
@@ -64,7 +64,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines whether or not the camera should render in orthographic (2D) mode or not (3D).</Description>
   </Properties>
   <Properties>
     <Name>FollowLerp</Name>
@@ -72,7 +72,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines whether or not to use lerping in Follow mode.</Description>
   </Properties>
   <Properties>
     <Name>LerpSpeed</Name>
@@ -80,7 +80,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines the lerp speed of the camera when lerping is enabled.</Description>
   </Properties>
   <Properties>
     <Name>OrthographicSize</Name>
@@ -88,7 +88,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines the half-size of the camera when in orthographic mode.</Description>
   </Properties>
   <Properties>
     <Name>PositionOffset</Name>
@@ -96,7 +96,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines the camera&apos;s offset from its position.</Description>
   </Properties>
   <Properties>
     <Name>RotationOffset</Name>
@@ -104,7 +104,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines the camera&apos;s offset from its rotation.</Description>
   </Properties>
   <Properties>
     <Name>IsFirstPerson</Name>
@@ -112,7 +112,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>true</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Returns whether or not the camera is in first person.</Description>
   </Properties>
   <Properties>
     <Name>CanLock</Name>
@@ -120,7 +120,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determine if camera can be ctrl locked.</Description>
   </Properties>
   <Properties>
     <Name>SensitivityMultiplier</Name>
@@ -128,7 +128,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Multipler for camera sensitivity</Description>
   </Properties>
   <Properties>
     <Name>Sensitivity</Name>
@@ -136,7 +136,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>true</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Current sensitivity of the camera</Description>
   </Properties>
   <Properties>
     <Name>HorizontalSpeed</Name>
@@ -144,7 +144,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines the horizontal movement speed of the camera in Follow mode.</Description>
   </Properties>
   <Properties>
     <Name>VerticalSpeed</Name>
@@ -152,7 +152,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines the vertical move speed of the camera.</Description>
   </Properties>
   <Properties>
     <Name>ScrollLerpSpeed</Name>
@@ -160,7 +160,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines the lerp amount when scrolling</Description>
   </Properties>
   <Properties>
     <Name>CtrlLocked</Name>
@@ -168,7 +168,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determine if camera is in Ctrl lock mode</Description>
   </Properties>
   <Properties>
     <Name>AlwaysLocked</Name>
@@ -176,7 +176,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determine if camera should always be in locked mode</Description>
   </Properties>
   <Properties>
     <Name>Target</Name>
@@ -184,7 +184,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The target of Follow mode</Description>
   </Properties>
   <Methods>
     <Name>ViewportPointToRay</Name>
@@ -210,7 +210,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Cast a ray from the camera at the specified ViewportPoint (Vector3 with components with values in range of 0 - 1 describing how far a point is to to right and to the top of the screen) into the game world</Description>
   </Methods>
   <Methods>
     <Name>ScreenPointToRay</Name>
@@ -236,7 +236,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Cast a ray from the camera at screen point into the game world</Description>
   </Methods>
   <Methods>
     <Name>ViewportToScreenPoint</Name>
@@ -250,7 +250,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Transforms `pos` from viewport space into screen space.</Description>
   </Methods>
   <Methods>
     <Name>ViewportToWorldPoint</Name>
@@ -264,7 +264,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Transforms `pos` from viewport space into world space.</Description>
   </Methods>
   <Methods>
     <Name>WorldToViewportPoint</Name>
@@ -278,7 +278,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Transforms `pos` from world space into viewport space.</Description>
   </Methods>
   <Methods>
     <Name>WorldToScreenPoint</Name>
@@ -292,7 +292,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Transforms `pos` from world space into screen space.</Description>
   </Methods>
   <Methods>
     <Name>ScreenToViewportPoint</Name>
@@ -306,7 +306,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Transforms `pos` from screen space into viewport space.</Description>
   </Methods>
   <Methods>
     <Name>ScreenToWorldPoint</Name>
@@ -320,7 +320,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Transforms `pos` from screen space into world space.</Description>
   </Methods>
   <Events>
     <Name>FirstPersonEntered</Name>
@@ -335,5 +335,5 @@
   <IsStatic>false</IsStatic>
   <IsAbstract>false</IsAbstract>
   <IsInstantiatable>true</IsInstantiatable>
-  <Description>Missing Documentation</Description>
+  <Description>Camera is a class that represents the local player&apos;s camera.</Description>
 </ClassDef>

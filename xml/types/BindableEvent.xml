@@ -14,7 +14,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Invoke this event with parameters</Description>
   </Methods>
   <Events>
     <Name>Invoked</Name>
@@ -22,10 +22,10 @@
       <Name>...</Name>
       <Type>any</Type>
     </Arguments>
-    <Description>Fires when this bindable has been invoked</Description>
+    <Description>Fires when this event has been invoked</Description>
   </Events>
   <IsStatic>false</IsStatic>
   <IsAbstract>false</IsAbstract>
   <IsInstantiatable>true</IsInstantiatable>
-  <Description>Missing Documentation</Description>
+  <Description>BindableEvent are events that can be called to communicate between scripts in the same boundary.</Description>
 </ClassDef>

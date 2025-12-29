@@ -19,5 +19,5 @@
   <IsStatic>true</IsStatic>
   <IsAbstract>false</IsAbstract>
   <IsInstantiatable>false</IsInstantiatable>
-  <Description>Missing Documentation</Description>
+  <Description>Datastore (not to be confused with the Datastore data type) is a service used for storing data between place sessions.</Description>
 </ClassDef>

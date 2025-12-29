@@ -5,5 +5,5 @@
   <IsStatic>true</IsStatic>
   <IsAbstract>false</IsAbstract>
   <IsInstantiatable>false</IsInstantiatable>
-  <Description>Missing Documentation</Description>
+  <Description>CreatorContextService is a service that manage per game specific tools, such as Selections and History. This class is only available in the creator.</Description>
 </ClassDef>

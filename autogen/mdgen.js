@@ -153,6 +153,7 @@ for (const xmlFile of xmlEnumFiles) {
     appendLine("---")
     appendLine("title: " + e.Name)
     appendLine("description: " + (e.Description && e.Description !== "Missing Documentation" ? e.Description : ""))
+    appendLine("icon: polytoria/Enum")
     appendLine("---")
     appendLine("")
     appendLine("# " + e.Name)

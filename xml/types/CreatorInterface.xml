@@ -77,5 +77,5 @@
   <IsStatic>false</IsStatic>
   <IsAbstract>false</IsAbstract>
   <IsInstantiatable>false</IsInstantiatable>
-  <Description>Missing Documentation</Description>
+  <Description>CreatorInterface represent the user interface of the creator. This class is only available in the creator.</Description>
 </ClassDef>

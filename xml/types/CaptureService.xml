@@ -8,7 +8,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>true</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Returns whenever the capture is on cooldown.</Description>
   </Properties>
   <Properties>
     <Name>CanCapture</Name>
@@ -16,7 +16,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines if user/scripts can take a picture.</Description>
   </Properties>
   <Properties>
     <Name>DefaultCaptureOverlay</Name>
@@ -24,7 +24,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Default capture overlay for all captures</Description>
   </Properties>
   <Properties>
     <Name>SpectatorAttach</Name>
@@ -32,7 +32,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Attaches a spectator camera at dynamic for use with spectator mode.</Description>
   </Properties>
   <Methods>
     <Name>TakePhotoAtDynamic</Name>
@@ -58,7 +58,7 @@
     <IsAsync>true</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Take a photo at dynamic</Description>
   </Methods>
   <Methods>
     <Name>TakePhotoAt</Name>
@@ -90,10 +90,10 @@
     <IsAsync>true</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Take photo at `pos` for position and `rot` for rotation, optional `photoSize` defines the size, and optional UI `overlay` can be passed to include it in the result photo.</Description>
   </Methods>
   <IsStatic>true</IsStatic>
   <IsAbstract>false</IsAbstract>
   <IsInstantiatable>false</IsInstantiatable>
-  <Description>Missing Documentation</Description>
+  <Description>Service for capturing photos</Description>
 </ClassDef>
