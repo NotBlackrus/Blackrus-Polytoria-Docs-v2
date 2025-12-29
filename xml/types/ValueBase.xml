@@ -10,5 +10,5 @@
   <IsStatic>false</IsStatic>
   <IsAbstract>true</IsAbstract>
   <IsInstantiatable>false</IsInstantiatable>
-  <Description>Missing Documentation</Description>
+  <Description>ValueBase is an abstract base class for objects that hold a value.</Description>
 </ClassDef>

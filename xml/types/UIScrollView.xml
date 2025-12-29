@@ -8,7 +8,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines the horizontal scroll mode of the scroll view.</Description>
   </Properties>
   <Properties>
     <Name>VerticalScrollMode</Name>
@@ -16,10 +16,10 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines the vertical scroll mode of the scroll view.</Description>
   </Properties>
   <IsStatic>false</IsStatic>
   <IsAbstract>false</IsAbstract>
   <IsInstantiatable>true</IsInstantiatable>
-  <Description>Missing Documentation</Description>
+  <Description>UIScrollView is a class that allows the user to scroll content within a view.</Description>
 </ClassDef>

@@ -8,7 +8,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The offset of the UI element in pixels.</Description>
   </Properties>
   <Properties>
     <Name>PositionRelative</Name>
@@ -16,7 +16,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The position of the UI element relative to its parent.</Description>
   </Properties>
   <Properties>
     <Name>Rotation</Name>
@@ -24,7 +24,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The rotation of the UI element in degrees.</Description>
   </Properties>
   <Properties>
     <Name>SizeOffset</Name>
@@ -32,7 +32,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The size offset of the UI element in pixels.</Description>
   </Properties>
   <Properties>
     <Name>SizeRelative</Name>
@@ -40,7 +40,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The size of the UI element relative to its parent.</Description>
   </Properties>
   <Properties>
     <Name>ClipDescendants</Name>
@@ -48,7 +48,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines whether the UI element clips its descendants.</Description>
   </Properties>
   <Properties>
     <Name>PivotPoint</Name>
@@ -56,7 +56,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The pivot point of the UI element.</Description>
   </Properties>
   <Properties>
     <Name>Scale</Name>
@@ -64,7 +64,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The scale of the UI element.</Description>
   </Properties>
   <Properties>
     <Name>Visible</Name>
@@ -72,7 +72,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines whether the UI element is visible.</Description>
   </Properties>
   <Properties>
     <Name>MaskMode</Name>
@@ -80,7 +80,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines the mask mode of the UI element.</Description>
   </Properties>
   <Properties>
     <Name>AbsoluteSize</Name>
@@ -88,7 +88,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>true</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The absolute size of the UI element in pixels.</Description>
   </Properties>
   <Properties>
     <Name>IsVisibleInTree</Name>
@@ -96,7 +96,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>true</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Indicates whether the UI element is visible in the UI hierarchy.</Description>
   </Properties>
   <Events>
     <Name>MouseEnter</Name>
@@ -131,5 +131,5 @@
   <IsStatic>false</IsStatic>
   <IsAbstract>false</IsAbstract>
   <IsInstantiatable>true</IsInstantiatable>
-  <Description>Missing Documentation</Description>
+  <Description>UIField is the abstract base class of all UI classes.</Description>
 </ClassDef>

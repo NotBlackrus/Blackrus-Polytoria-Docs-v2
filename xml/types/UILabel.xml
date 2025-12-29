@@ -8,7 +8,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The text of the label.</Description>
   </Properties>
   <Properties>
     <Name>TextColor</Name>
@@ -16,7 +16,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The color of the text.</Description>
   </Properties>
   <Properties>
     <Name>OutlineWidth</Name>
@@ -24,7 +24,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The width of the text outline.</Description>
   </Properties>
   <Properties>
     <Name>OutlineColor</Name>
@@ -32,7 +32,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The color of the text outline.</Description>
   </Properties>
   <Properties>
     <Name>HorizontalAlignment</Name>
@@ -40,7 +40,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines the horizontal alignment of the text.</Description>
   </Properties>
   <Properties>
     <Name>VerticalAlignment</Name>
@@ -48,7 +48,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines the vertical alignment of the text.</Description>
   </Properties>
   <Properties>
     <Name>FontSize</Name>
@@ -56,7 +56,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The font size of the text.</Description>
   </Properties>
   <Properties>
     <Name>UseRichText</Name>
@@ -64,7 +64,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines whether the text uses rich text formatting.</Description>
   </Properties>
   <Properties>
     <Name>FontAsset</Name>
@@ -72,10 +72,10 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The font asset used for the text.</Description>
   </Properties>
   <IsStatic>false</IsStatic>
   <IsAbstract>false</IsAbstract>
   <IsInstantiatable>true</IsInstantiatable>
-  <Description>Missing Documentation</Description>
+  <Description>UILabel is a class that can be used to display text.</Description>
 </ClassDef>

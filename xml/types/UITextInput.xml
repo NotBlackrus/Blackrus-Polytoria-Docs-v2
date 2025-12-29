@@ -8,7 +8,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The text of the label.</Description>
   </Properties>
   <Properties>
     <Name>TextColor</Name>
@@ -16,7 +16,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The color of the text.</Description>
   </Properties>
   <Properties>
     <Name>JustifyText</Name>
@@ -24,7 +24,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines how text is justified.</Description>
   </Properties>
   <Properties>
     <Name>FontSize</Name>
@@ -32,7 +32,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The font size of the label.</Description>
   </Properties>
   <Properties>
     <Name>IsMultiline</Name>
@@ -40,7 +40,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines whether the text input supports multiple lines.</Description>
   </Properties>
   <Properties>
     <Name>Placeholder</Name>
@@ -48,7 +48,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The placeholder text displayed when the input is empty.</Description>
   </Properties>
   <Properties>
     <Name>PlaceholderColor</Name>
@@ -56,7 +56,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The color of the placeholder text.</Description>
   </Properties>
   <Properties>
     <Name>ReadonlyColor</Name>
@@ -64,7 +64,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The color of the text when the input is read-only.</Description>
   </Properties>
   <Properties>
     <Name>IsReadOnly</Name>
@@ -72,7 +72,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>Determines whether the text input is read-only.</Description>
   </Properties>
   <Properties>
     <Name>FontAsset</Name>
@@ -80,7 +80,7 @@
     <IsAccessibleByScripts>true</IsAccessibleByScripts>
     <IsReadOnly>false</IsReadOnly>
     <IsObsolete>false</IsObsolete>
-    <Description>Missing Documentation</Description>
+    <Description>The font asset used for the text.</Description>
   </Properties>
   <Methods>
     <Name>Focus</Name>
@@ -88,7 +88,7 @@
     <IsAsync>false</IsAsync>
     <IsObsolete>false</IsObsolete>
     <IsStatic>false</IsStatic>
-    <Description>Missing Documentation</Description>
+    <Description>Forces the local player to focus on the text input.</Description>
   </Methods>
   <Events>
     <Name>Submitted</Name>
@@ -109,5 +109,5 @@
   <IsStatic>false</IsStatic>
   <IsAbstract>false</IsAbstract>
   <IsInstantiatable>true</IsInstantiatable>
-  <Description>Missing Documentation</Description>
+  <Description>UITextInput is a class that allows the user to enter text.</Description>
 </ClassDef>
