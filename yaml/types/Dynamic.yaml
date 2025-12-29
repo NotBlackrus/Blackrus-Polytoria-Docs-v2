@@ -94,28 +94,6 @@ Methods:
     IsObsolete: false
     IsStatic: false
     Description: Orients the object to look at a target with a specified up vector.
-  - Name: MovePosition
-    ReturnType: nil
-    Parameters:
-      - Name: position
-        Type: Vector3
-        IsOptional: false
-        DefaultValue: ""
-    IsAsync: false
-    IsObsolete: false
-    IsStatic: false
-    Description: Missing Documentation
-  - Name: MoveRotation
-    ReturnType: nil
-    Parameters:
-      - Name: rotation
-        Type: Vector3
-        IsOptional: false
-        DefaultValue: ""
-    IsAsync: false
-    IsObsolete: false
-    IsStatic: false
-    Description: Missing Documentation
   - Name: Translate
     ReturnType: nil
     Parameters:

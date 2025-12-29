@@ -6,19 +6,19 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: true
     IsObsolete: false
-    Description: Missing Documentation
+    Description: Collection of button inputs.
   - Name: IsPressed
     Type: boolean
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
-    Description: Missing Documentation
+    Description: Returns true if any of the button in the collection is currently being pressed.
   - Name: Weight
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
-    Description: Missing Documentation
+    Description: Returns the current analog input of the button.
 Methods: []
 Events:
   - Name: Pressed

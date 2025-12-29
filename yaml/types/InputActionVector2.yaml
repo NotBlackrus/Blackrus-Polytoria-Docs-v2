@@ -6,31 +6,31 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
-    Description: Missing Documentation
+    Description: Collection of up inputs.
   - Name: Down
     Type: InputButtonCollection
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
-    Description: Missing Documentation
+    Description: Collection of down inputs.
   - Name: Left
     Type: InputButtonCollection
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
-    Description: Missing Documentation
+    Description: Collection of left inputs.
   - Name: Right
     Type: InputButtonCollection
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
-    Description: Missing Documentation
+    Description: Collection of right inputs.
   - Name: Value
     Type: Vector2
     IsAccessibleByScripts: true
     IsReadOnly: true
     IsObsolete: false
-    Description: Missing Documentation
+    Description: The value of this input
 Methods: []
 Events: []
 IsStatic: false

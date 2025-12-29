@@ -12,7 +12,7 @@ Properties:
     IsAccessibleByScripts: false
     IsReadOnly: false
     IsObsolete: false
-    Description: Missing Documentation
+    Description: Determine if children is editable, this is to be used if this instance is a Linked model. Only used in creator.
   - Name: Tags
     Type: table
     IsAccessibleByScripts: true
@@ -52,7 +52,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Wait for children to be added.
   - Name: FindChildByClass
     ReturnType: Instance
     Parameters:
@@ -78,7 +78,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Move children to specified index
   - Name: GetChildren
     ReturnType: table
     Parameters: []
@@ -188,7 +188,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Reparent this instance to another instance
   - Name: GetParent
     ReturnType: Instance
     Parameters: []

@@ -34,7 +34,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Insert a new tool with the specified ID
 Events: []
 IsStatic: true
 IsAbstract: false

@@ -37,6 +37,28 @@ Methods:
     IsObsolete: false
     IsStatic: false
     Description: Sets the network authority of this object to the specified player.
+  - Name: MovePosition
+    ReturnType: nil
+    Parameters:
+      - Name: position
+        Type: Vector3
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Moves the part to the specified position while keeping physics in mind.
+  - Name: MoveRotation
+    ReturnType: nil
+    Parameters:
+      - Name: rotation
+        Type: Vector3
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Rotates the part while keeping physics in mind.
 Events:
   - Name: Touched
     Arguments:

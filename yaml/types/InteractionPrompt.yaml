@@ -6,42 +6,42 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
-    Description: Missing Documentation
+    Description: WIP
   - Name: SubTitle
     Type: string
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
-    Description: Missing Documentation
+    Description: WIP
   - Name: HoldDuration
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
-    Description: Missing Documentation
+    Description: WIP
   - Name: Key
     Type: KeyCodeEnum
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
-    Description: Missing Documentation
+    Description: WIP
   - Name: UseDefaultUI
     Type: boolean
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
-    Description: Missing Documentation
+    Description: WIP
 Methods: []
 Events:
   - Name: Triggered
     Arguments: ""
-    Description: Missing Documentation
+    Description: WIP
   - Name: TriggerStarted
     Arguments: ""
-    Description: Missing Documentation
+    Description: WIP
   - Name: TriggerReleased
     Arguments: ""
-    Description: Missing Documentation
+    Description: WIP
 IsStatic: false
 IsAbstract: false
 IsInstantiatable: true

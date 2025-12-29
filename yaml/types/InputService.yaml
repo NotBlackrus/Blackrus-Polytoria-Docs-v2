@@ -90,7 +90,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Returns the current Vector2 value of the action.
   - Name: GetButton
     ReturnType: InputActionButton
     Parameters:
@@ -123,7 +123,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Bind new Button Input Action
   - Name: BindAxis
     ReturnType: InputActionAxis
     Parameters:
@@ -134,7 +134,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Bind new Axis Input Action
   - Name: BindVector2
     ReturnType: InputActionVector2
     Parameters:
@@ -145,7 +145,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Bind new Vector2 Input Action
 Events:
   - Name: GameFocused
     Arguments: ""

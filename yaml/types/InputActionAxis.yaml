@@ -6,19 +6,19 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
-    Description: Missing Documentation
+    Description: Collection of negative inputs
   - Name: Positive
     Type: InputButtonCollection
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
-    Description: Missing Documentation
+    Description: Collection of positive inputs
   - Name: Value
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: true
     IsObsolete: false
-    Description: Missing Documentation
+    Description: The value of the input
 Methods: []
 Events: []
 IsStatic: false

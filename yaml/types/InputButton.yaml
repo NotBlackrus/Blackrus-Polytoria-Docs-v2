@@ -6,7 +6,7 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
-    Description: Missing Documentation
+    Description: Key code for this button
 Methods:
   - Name: New
     ReturnType: InputButton
@@ -14,7 +14,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
-    Description: Missing Documentation
+    Description: Create new empty button
   - Name: New
     ReturnType: InputButton
     Parameters:
@@ -25,7 +25,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: true
-    Description: Missing Documentation
+    Description: Create new button of this keycode
 Events: []
 IsStatic: false
 IsAbstract: false
