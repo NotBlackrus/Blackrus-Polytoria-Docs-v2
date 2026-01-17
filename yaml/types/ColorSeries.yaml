@@ -1,11 +1,12 @@
 Name: ColorSeries
-BaseType: ValueType
+BaseType: null
 Properties:
   - Name: PointCount
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: true
     IsObsolete: false
+    IsStatic: false
     Description: Returns the point count of this color series
 Methods:
   - Name: New

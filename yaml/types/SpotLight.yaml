@@ -6,12 +6,14 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: The maximum distance the light can reach.
   - Name: Angle
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: The angle of the spotlight's cone.
 Methods: []
 Events: []

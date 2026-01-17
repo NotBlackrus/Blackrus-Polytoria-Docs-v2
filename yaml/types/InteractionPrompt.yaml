@@ -6,30 +6,35 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: WIP
   - Name: SubTitle
     Type: string
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: WIP
   - Name: HoldDuration
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: WIP
   - Name: Key
     Type: KeyCodeEnum
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: WIP
   - Name: UseDefaultUI
     Type: boolean
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: WIP
 Methods: []
 Events:

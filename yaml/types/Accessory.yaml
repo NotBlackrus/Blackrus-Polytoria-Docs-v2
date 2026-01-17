@@ -6,6 +6,7 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Specifies the character attachment point
 Methods: []
 Events: []

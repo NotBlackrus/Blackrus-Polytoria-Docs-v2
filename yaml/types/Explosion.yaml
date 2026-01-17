@@ -6,12 +6,14 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Determines the radius of this explosion
   - Name: Force
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Determines the force of this explosion that will be applied to
       affected hits
   - Name: AffectAnchored
@@ -19,18 +21,21 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Determines if this explosion should affect anchored parts or not
   - Name: Damage
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Damage that is affected to player
   - Name: AffectPredicate
     Type: function
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: |-
       A predicate function deciding whenever this part should be accepted or not
           

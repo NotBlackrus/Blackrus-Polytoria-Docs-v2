@@ -6,6 +6,7 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: The value of this object.
 Methods: []
 Events: []

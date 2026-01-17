@@ -1,17 +1,19 @@
 Name: NumberRange
-BaseType: ValueType
+BaseType: null
 Properties:
   - Name: Min
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Determines the minimum value of the range.
   - Name: Max
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Determines the maximum value of the range.
 Methods:
   - Name: New

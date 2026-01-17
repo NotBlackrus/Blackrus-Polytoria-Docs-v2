@@ -6,12 +6,14 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Indicates who is currently occupying the seat.
   - Name: CanNPCSit
     Type: boolean
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Determines whether NPCs are allowed to sit on this seat or only players.
 Methods: []
 Events:

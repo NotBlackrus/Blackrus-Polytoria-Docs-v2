@@ -1,23 +1,26 @@
 Name: MeshAnimationInfo
-BaseType: ValueType
+BaseType: null
 Properties:
   - Name: Name
     Type: string
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Missing Documentation
   - Name: Length
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Missing Documentation
   - Name: IsPlaying
     Type: boolean
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Missing Documentation
 Methods: []
 Events: []

@@ -1,6 +1,27 @@
 Name: GUI
-BaseType: UIField
-Properties: []
+BaseType: Instance
+Properties:
+  - Name: Visible
+    Type: boolean
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: ZIndex
+    Type: number
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
+  - Name: AbsoluteSize
+    Type: Vector2
+    IsAccessibleByScripts: true
+    IsReadOnly: true
+    IsObsolete: false
+    IsStatic: false
+    Description: Missing Documentation
 Methods: []
 Events: []
 IsStatic: false

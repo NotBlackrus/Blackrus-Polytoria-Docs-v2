@@ -6,6 +6,7 @@ Properties:
     IsAccessibleByScripts: false
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Asset ID of this mesh
 Methods: []
 Events: []

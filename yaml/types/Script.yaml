@@ -6,24 +6,28 @@ Properties:
     IsAccessibleByScripts: false
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: The source code of the script as a string.
   - Name: IsEnabled
     Type: boolean
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Missing Documentation
   - Name: LinkedScript
     Type: FileLinkAsset
     IsAccessibleByScripts: false
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: A linked script asset associated with this script.
   - Name: Compatibility
     Type: boolean
     IsAccessibleByScripts: false
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Indicates whether the script is running in compatibility mode.
 Methods:
   - Name: Call

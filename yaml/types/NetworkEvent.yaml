@@ -6,6 +6,7 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Determines if this network event should send messages reliably.
       Recommended to be off if you're passing lot of data that doesn't need to
       arrive reliably.

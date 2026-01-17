@@ -6,36 +6,42 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Determines the forward force limit in kg/s.
   - Name: SteerLimit
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Determines the steering limit in degrees.
   - Name: Force
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Determines the forward force in kg/s.
   - Name: Brake
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Determines the break amount in kg/s.
   - Name: Steering
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Determines the steering angle in degrees
   - Name: Driver
     Type: Player
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Determines the current driver of this vehicle.
 Methods: []
 Events: []

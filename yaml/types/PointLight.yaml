@@ -6,6 +6,7 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: The range of the point light's illumination.
 Methods: []
 Events: []

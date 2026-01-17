@@ -6,12 +6,14 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: The spacing between child elements in the layout.
   - Name: ChildAlignment
     Type: UILayoutAlignmentEnum
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Determines the alignment of child elements within the layout.
 Methods: []
 Events: []

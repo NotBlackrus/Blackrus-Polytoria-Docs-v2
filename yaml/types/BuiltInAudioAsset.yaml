@@ -6,6 +6,7 @@ Properties:
     IsAccessibleByScripts: false
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: The target audio to use
 Methods: []
 Events: []

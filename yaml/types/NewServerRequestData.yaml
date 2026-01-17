@@ -6,12 +6,14 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Target place path.
   - Name: MaxPlayers
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: How much player slot should the new server allocates for.
 Methods:
   - Name: New

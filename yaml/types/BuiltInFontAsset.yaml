@@ -6,6 +6,7 @@ Properties:
     IsAccessibleByScripts: false
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Target font to use
 Methods: []
 Events: []

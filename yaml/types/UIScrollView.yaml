@@ -6,12 +6,14 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Determines the horizontal scroll mode of the scroll view.
   - Name: VerticalScrollMode
     Type: ScrollModeEnum
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: Determines the vertical scroll mode of the scroll view.
 Methods: []
 Events: []

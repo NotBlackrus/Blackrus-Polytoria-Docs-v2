@@ -6,6 +6,7 @@ Properties:
     IsAccessibleByScripts: false
     IsReadOnly: false
     IsObsolete: false
+    IsStatic: false
     Description: The ID of the file
 Methods: []
 Events: []

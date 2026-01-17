@@ -6,12 +6,14 @@ Properties:
     IsAccessibleByScripts: true
     IsReadOnly: true
     IsObsolete: false
+    IsStatic: true
     Description: Determines whether the player has photo mode enabled.
   - Name: UsePostProcessing
     Type: boolean
     IsAccessibleByScripts: true
     IsReadOnly: true
     IsObsolete: false
+    IsStatic: true
     Description: Determines whether the player has post-processing effects enabled.
 Methods: []
 Events:
