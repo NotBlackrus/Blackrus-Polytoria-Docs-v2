@@ -14,14 +14,14 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Font weight for this font
   - Name: FontStyle
     Type: FontStyleEnum
     IsAccessibleByScripts: false
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Font style for this font
 Methods: []
 Events: []
 IsStatic: false

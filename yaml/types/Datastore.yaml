@@ -53,7 +53,8 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Disconnect this datastore connection, this should be called when
+      you finish using the datastore.
 Events: []
 IsStatic: false
 IsAbstract: false

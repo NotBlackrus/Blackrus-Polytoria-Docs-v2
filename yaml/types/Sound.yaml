@@ -50,7 +50,7 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determines whether the sound should be paused
   - Name: MaxDistance
     Type: number
     IsAccessibleByScripts: true
@@ -112,7 +112,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Pause the sound if it is currently playing.
   - Name: Stop
     ReturnType: nil
     Parameters: []

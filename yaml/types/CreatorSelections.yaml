@@ -30,7 +30,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Get all selected instances
   - Name: Deselect
     ReturnType: nil
     Parameters:
@@ -74,10 +74,10 @@ Methods:
 Events:
   - Name: Selected
     Arguments: ""
-    Description: Missing Documentation
+    Description: Fires when an instance has been selected
   - Name: Deselected
     Arguments: ""
-    Description: Missing Documentation
+    Description: Fires when an instance has been deselected
 IsStatic: true
 IsAbstract: false
 IsInstantiatable: false

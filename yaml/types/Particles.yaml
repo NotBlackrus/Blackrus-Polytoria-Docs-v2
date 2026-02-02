@@ -7,7 +7,7 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determines if particles should be emitting.
   - Name: Image
     Type: ImageAsset
     IsAccessibleByScripts: true
@@ -49,49 +49,49 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determines the velocity direction
   - Name: InitialVelocity
     Type: NumberRange
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determines the initial velocity
   - Name: Spread
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determines the spread angle of the velocity
   - Name: Flatness
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determines how flat the spread angle should be
   - Name: Scale
     Type: NumberRange
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determine the initial scale range
   - Name: HueVariation
     Type: NumberRange
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determine the hue variation
   - Name: BlendMode
     Type: BlendModeEnum
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determines the blend mode of the particle.
   - Name: Shaded
     Type: boolean
     IsAccessibleByScripts: true
@@ -105,21 +105,21 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determines the emission shape of this particle
   - Name: EmissionShapeScale
     Type: Vector3
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determines the emission shape's scale
   - Name: SimulationSpace
     Type: ParticleSimulationSpaceEnum
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Whether the particles are simulated in world or local space.
 Methods:
   - Name: Play
     ReturnType: nil

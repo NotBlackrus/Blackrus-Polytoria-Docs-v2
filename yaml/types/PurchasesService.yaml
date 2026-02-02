@@ -16,7 +16,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Prompt the purchase prompt to player
   - Name: OwnsItemAsync
     ReturnType: boolean
     Parameters:

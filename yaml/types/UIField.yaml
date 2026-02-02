@@ -77,21 +77,21 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determines if the UI field should be ignored by mouse input
   - Name: ZIndex
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determines the ZIndex value of this UI field.
   - Name: AbsolutePosition
     Type: Vector2
     IsAccessibleByScripts: true
     IsReadOnly: true
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: The absolute position of the UI element in pixels.
   - Name: AbsoluteSize
     Type: Vector2
     IsAccessibleByScripts: true

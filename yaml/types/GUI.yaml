@@ -7,21 +7,14 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determines whether the GUI is visible or not.
   - Name: ZIndex
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
-  - Name: AbsoluteSize
-    Type: Vector2
-    IsAccessibleByScripts: true
-    IsReadOnly: true
-    IsObsolete: false
-    IsStatic: false
-    Description: Missing Documentation
+    Description: Determines the ZIndex (layer) of the GUI.
 Methods: []
 Events: []
 IsStatic: false

@@ -7,7 +7,21 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: >
+      A callback function that filters chat messages before they are displayed
+      to players.
+
+      ```lua
+
+      Chat.ChatPredicate = function(plr: Player, msg: string)
+          if msg == "miau" then
+              Chat:UnicastMessage("no miau allowed", plr)
+              return false
+          end
+          return true
+      end
+
+      ```
 Methods:
   - Name: BroadcastMessage
     ReturnType: nil
@@ -51,7 +65,7 @@ Events:
       `BroadcastMessage` or `UnicastMessage`
   - Name: MessageDeclined
     Arguments: ""
-    Description: Missing Documentation
+    Description: Fires when message has been declined by the server
 IsStatic: true
 IsAbstract: false
 IsInstantiatable: false

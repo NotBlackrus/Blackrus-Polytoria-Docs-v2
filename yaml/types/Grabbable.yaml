@@ -21,7 +21,7 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determines if dragging this object should affect physics.
   - Name: PermissionMode
     Type: GrabbablePermissionModeEnum
     IsAccessibleByScripts: true

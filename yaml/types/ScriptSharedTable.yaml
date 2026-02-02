@@ -8,7 +8,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Clear the shared table
   - Name: Remove
     ReturnType: nil
     Parameters:
@@ -19,7 +19,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Remove the key from shared table
   - Name: ClearPrefix
     ReturnType: nil
     Parameters:
@@ -30,7 +30,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Clear all keys with the prefix
   - Name: ClearSuffix
     ReturnType: nil
     Parameters:
@@ -41,7 +41,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Clear all keys with the suffix
 Events: []
 IsStatic: false
 IsAbstract: false

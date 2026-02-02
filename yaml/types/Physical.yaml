@@ -47,7 +47,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Get all objects that's currently in contact with this object.
   - Name: MovePosition
     ReturnType: nil
     Parameters:

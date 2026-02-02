@@ -92,10 +92,10 @@ Events:
     Description: Fires when user changed the text
   - Name: FocusEnter
     Arguments: ""
-    Description: Missing Documentation
+    Description: Fires when user focuses on this input field
   - Name: FocusExit
     Arguments: ""
-    Description: Missing Documentation
+    Description: Fires when user defocused from this input field
 IsStatic: false
 IsAbstract: false
 IsInstantiatable: true

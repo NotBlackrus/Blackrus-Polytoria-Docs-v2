@@ -35,7 +35,7 @@ Properties:
     IsReadOnly: true
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: A synchronized clock that represents the server's current time.
   - Name: InstanceCount
     Type: number
     IsAccessibleByScripts: true

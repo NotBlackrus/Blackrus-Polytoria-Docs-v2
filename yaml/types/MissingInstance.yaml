@@ -7,4 +7,4 @@ IsStatic: false
 IsAbstract: false
 IsInstantiatable: false
 StaticAlias: null
-Description: Missing Documentation
+Description: Default instance that's created when instance is invalid.

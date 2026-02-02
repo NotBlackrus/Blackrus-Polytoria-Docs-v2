@@ -12,10 +12,10 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Register an addon
 Events: []
 IsStatic: true
 IsAbstract: false
 IsInstantiatable: false
 StaticAlias: Addons
-Description: Missing Documentation
+Description: Service for managing addons

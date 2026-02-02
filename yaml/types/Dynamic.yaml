@@ -56,7 +56,7 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: The local rotation of the object represented as a quaternion.
   - Name: Locked
     Type: boolean
     IsAccessibleByScripts: true

@@ -14,7 +14,7 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determine if this script should be enabled. Note that setting it to false during runtime won't stop the script immediately, rather it would stop any running threads when it hits any yield function.
   - Name: LinkedScript
     Type: FileLinkAsset
     IsAccessibleByScripts: false
@@ -70,7 +70,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Link script with the target file path
 Events: []
 IsStatic: false
 IsAbstract: true

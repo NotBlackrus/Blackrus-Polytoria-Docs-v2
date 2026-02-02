@@ -7,25 +7,25 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: The name of this animation.
   - Name: Length
     Type: number
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: The length of this animation.
   - Name: IsPlaying
     Type: boolean
     IsAccessibleByScripts: true
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Indicates the playing state of this animation.
 Methods: []
 Events: []
 IsStatic: false
 IsAbstract: false
 IsInstantiatable: false
 StaticAlias: null
-Description: Missing Documentation
+Description: MeshAnimationInfo contains the animation information for meshes.

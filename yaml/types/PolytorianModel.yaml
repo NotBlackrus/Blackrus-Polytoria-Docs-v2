@@ -160,7 +160,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: EXPERIMENTAL !! Set bone override mode
   - Name: SetAnimationOverrideTo
     ReturnType: nil
     Parameters:
@@ -171,7 +171,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: EXPERIMENTAL !! Set animation override, if set to true. will disable the character animation entirely
   - Name: SetBoneOverridePosition
     ReturnType: nil
     Parameters:
@@ -186,7 +186,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: EXPERIMENTAL !! Set bone override position
   - Name: SetBoneOverrideRotation
     ReturnType: nil
     Parameters:
@@ -201,7 +201,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: EXPERIMENTAL !! Set bone override rotation
   - Name: GetBoneOverridePosition
     ReturnType: Vector3
     Parameters:
@@ -212,7 +212,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: EXPERIMENTAL !! Get bone override position
   - Name: GetBoneOverrideRotation
     ReturnType: Vector3
     Parameters:
@@ -223,7 +223,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: EXPERIMENTAL !! Get bone override rotation
 Events:
   - Name: RagdollStarted
     Arguments: ""

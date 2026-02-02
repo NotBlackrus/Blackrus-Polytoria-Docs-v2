@@ -43,7 +43,7 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determines whether or not the backpack is togglable.
   - Name: UseMenuButton
     Type: boolean
     IsAccessibleByScripts: true

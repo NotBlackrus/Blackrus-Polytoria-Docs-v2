@@ -232,7 +232,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Tweens a Quaternion between two specified values.
   - Name: Play
     ReturnType: nil
     Parameters: []

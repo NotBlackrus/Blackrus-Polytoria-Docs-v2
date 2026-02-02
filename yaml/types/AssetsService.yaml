@@ -56,7 +56,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Retrieve `FileLinkAsset` with the specified path
   - Name: GetFileLinkByID
     ReturnType: FileLinkAsset
     Parameters:
@@ -67,7 +67,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Retrieve `FileLinkAsset` with the specified ID
 Events: []
 IsStatic: true
 IsAbstract: false

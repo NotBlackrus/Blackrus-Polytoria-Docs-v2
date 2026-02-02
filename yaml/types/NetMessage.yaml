@@ -136,7 +136,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Adds an Buffer value to the message with the specified key.
   - Name: GetString
     ReturnType: string
     Parameters:
@@ -235,7 +235,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Gets an Buffer value from the message with the specified key.
   - Name: New
     ReturnType: NetMessage
     Parameters: []

@@ -5,9 +5,9 @@ Methods: []
 Events:
   - Name: Pressed
     Arguments: ""
-    Description: Missing Documentation
+    Description: Fires when this tool item has been pressed
 IsStatic: false
 IsAbstract: false
 IsInstantiatable: false
 StaticAlias: null
-Description: Missing Documentation
+Description: AddonToolItem represents a tool item in the tools menu

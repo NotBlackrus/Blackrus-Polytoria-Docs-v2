@@ -37,7 +37,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Clear this ColorSeries
   - Name: SetColor
     ReturnType: nil
     Parameters:
@@ -70,14 +70,14 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Get all offsets
   - Name: GetColors
     ReturnType: "{ Color }"
     Parameters: []
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Get all colors
   - Name: SetOffset
     ReturnType: nil
     Parameters:
@@ -129,7 +129,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Add color point to the series with offset
   - Name: Lerp
     ReturnType: Color
     Parameters:

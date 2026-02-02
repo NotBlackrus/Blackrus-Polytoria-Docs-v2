@@ -70,7 +70,7 @@ Properties:
     IsReadOnly: true
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Indicates whether this mesh is currently being loaded.
 Methods:
   - Name: PlayAnimation
     ReturnType: nil
@@ -115,11 +115,11 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Get the animation info
 Events:
   - Name: Loaded
     Arguments: ""
-    Description: Missing Documentation
+    Description: Fires when this mesh has been loaded.
 IsStatic: false
 IsAbstract: false
 IsInstantiatable: true

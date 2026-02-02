@@ -29,7 +29,7 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Determines if this instance should be saved during the saving process. Useful for addons that wants to create a temporary instance.
 Methods:
   - Name: GetDescendants
     ReturnType: "{ Instance }"
@@ -85,7 +85,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Find first child with the specified tag
   - Name: GetChildrenWithTag
     ReturnType: "{ Instance }"
     Parameters:
@@ -96,7 +96,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Get children with the specified tag
   - Name: FindAncestorByClass
     ReturnType: Instance
     Parameters:
@@ -107,7 +107,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Find ancestor by the specified class name
   - Name: FindChildByIndex
     ReturnType: Instance
     Parameters:
@@ -118,7 +118,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Missing Documentation
+    Description: Find child by it's index (index for this function starts from 0)
   - Name: MoveChild
     ReturnType: nil
     Parameters:
@@ -133,7 +133,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
-    Description: Move children to specified index
+    Description: Move children to specified index (index for this function starts from 0)
   - Name: GetChildren
     ReturnType: "{ Instance }"
     Parameters: []
