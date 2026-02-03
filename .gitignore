@@ -2,7 +2,6 @@ __pycache__
 node_modules
 def.json
 
-docs/api/types/*
 docs/api/enums/*
 
 !docs/api/types/index.md
