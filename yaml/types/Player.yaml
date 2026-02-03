@@ -119,6 +119,7 @@ Properties:
     IsReadOnly: true
     IsObsolete: false
     IsStatic: false
+    APIexclusive: false
     Description: Determines whether the player is the local player.
   - Name: IsClimbing
     Type: boolean
@@ -166,6 +167,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    APIexclusive: true
     Description: Kicks the player from the game with the specified reason.
   - Name: UnequipTool
     ReturnType: nil
@@ -180,6 +182,7 @@ Methods:
     IsAsync: false
     IsObsolete: false
     IsStatic: false
+    APIexclusive: true
     Description: Respawns the player.
   - Name: ResetAppearance
     ReturnType: nil
