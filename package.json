@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "dev": "npm run gen && mkdocs serve",
+    "dev": "node autogen/mdgen.js && mkdocs serve",
     "build": "npm run gen && mkdocs build",
     "setup": "npm i && node autogen/mdgen.js && mkdocs build",
     "gen": "node autogen/yamlgen.js && node autogen/mdgen.js"
