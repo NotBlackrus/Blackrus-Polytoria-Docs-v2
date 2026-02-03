@@ -28,5 +28,6 @@ IsStatic: false
 IsAbstract: false
 IsInstantiatable: false
 StaticAlias: null
+APIexclusive: true
 Description: NewServerRequestData represents the request data for a new server
   instance, to be used with PlacesService.

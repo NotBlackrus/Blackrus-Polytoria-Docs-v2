@@ -43,4 +43,5 @@ IsStatic: false
 IsAbstract: false
 IsInstantiatable: false
 StaticAlias: null
+APIexclusive: true
 Description: HttpRequestData represents the data required to construct an HTTP request
