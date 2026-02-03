@@ -16,6 +16,7 @@ Methods:
     IsAsync: true
     IsObsolete: false
     IsStatic: false
+    APIexclusive: true
     Description: Prompt the purchase prompt to player
   - Name: OwnsItemAsync
     ReturnType: boolean
