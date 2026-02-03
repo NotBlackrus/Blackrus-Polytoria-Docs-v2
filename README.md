@@ -1,5 +1,3 @@
-# Docs
-
 # Polytoria 2.0 Documentation
 
 Welcome to the **Polytoria 2.0** documentation repository.
