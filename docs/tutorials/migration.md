@@ -45,7 +45,7 @@ This allows creators to make multiple tweens at once, allowing more control and
 
 ## Particles
 
-Particles has been revamped in 2.0, you will be required to manually restore any particle effects that you bring over from 1.0 projects. However, this revamp allows you to have much more control over your visual effects!
+Particles have been revamped in 2.0, creators will be required to manually restore any particle effects that creators bring over from 1.0 projects. However, this revamp allows creators to have much more control over their visual effects!
 
 ## Datastore retrieving
 
