@@ -35,9 +35,9 @@ When contributing:
 ## How To Contribute
 
 This repository can be forked, allowing any user to commit changes to their own repository before submitting a pull request for Polytoria staff members to review before accepting it to their own repository, similarly to how Polytoria 2.0's godot engine repository works.
-* Once forked, you should have access to [pip](https://pypi.org/project/pip/) to install everything from [requirements.txt]("./requirements.txt"). For building your repository, make sure you have [nodejs](https://nodejs.org/en/download).
-* Once the requirements are installed, you may edit anything within [yaml]("./yaml") to your liking.
-### This mkdocs based repository uses automated documentation with [autogen/mdgen.js]("./autogen/mdgen.js")
+* Once forked, you should have access to [pip](https://pypi.org/project/pip/) to install everything from [main/requirements.txt](requirements.txt). For building your repository, make sure you have [nodejs](https://nodejs.org/en/download).
+* Once the requirements are installed, you may edit anything within [main/yaml](yaml) to your liking.
+### This mkdocs based repository uses automated documentation with [main/autogen/mdgen.js](autogen/mdgen.js)
 * Before testing your fork or committing changes for your repository, you need to run `node autogen/mdgen.js` before running `mkdocs serve`, unlike Polytoria 1.0's engine documentation repository.
 
 ---
