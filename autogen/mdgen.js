@@ -67,11 +67,10 @@ for (const yamlFile of yamlFiles) {
         if (data.IsStatic && data.StaticAlias) {
             appendLine(`\n{{ staticclass(${data.StaticAlias ? `"${data.StaticAlias}"` : ""}) }}\n`)
         }
-        
+
         if (data.APIexclusive == true) {
             appendLine("{{ serverexclusive() }}\n")
-        }
-        if (data.APIexclusive == false) {
+        } else {
             appendLine("{{ clientexclusive() }}\n")
         }
 
@@ -130,7 +129,7 @@ for (const yamlFile of yamlFiles) {
     let i = 0
     for (const prop of properties) {
         i += 1
-        if (i != 1) {appendLine(`---`)}
+        if (i != 1) { appendLine(`---`) }
         appendLine(`### ${prop.Name}:${prop.Type} { property }\n`)
         appendLine(prop.Description || "Missing documentation!")
         typeCheck(prop)
@@ -140,7 +139,7 @@ for (const yamlFile of yamlFiles) {
     const methods = c.Methods ? (Array.isArray(c.Methods) ? c.Methods : [c.Methods]) : [];
 
     if (methods.length > 0) {
-        if (properties.length > 0) {appendLine(`---`)}
+        if (properties.length > 0) { appendLine(`---`) }
         appendLine("\n## Methods\n")
     }
     i = 0
@@ -153,7 +152,7 @@ for (const yamlFile of yamlFiles) {
             params.push(`${p.Name};${p.Type}${p.IsOptional ? "?" : ""}`)
         }
 
-        if (i != 1) {appendLine(`---`)}
+        if (i != 1) { appendLine(`---`) }
         appendLine(`### ${m.Name}(${params.join(",")}):${m.ReturnType || "void"} { method }\n`)
         appendLine(m.Description || "Missing documentation!")
         appendLine(``)
@@ -163,7 +162,7 @@ for (const yamlFile of yamlFiles) {
     const events = c.Events ? (Array.isArray(c.Events) ? c.Events : [c.Events]) : [];
 
     if (events.length > 0) {
-        if (methods.length > 0 || properties.length > 0) {appendLine(`---`)}
+        if (methods.length > 0 || properties.length > 0) { appendLine(`---`) }
         appendLine("\n## Events\n")
     }
     i = 0
@@ -175,7 +174,7 @@ for (const yamlFile of yamlFiles) {
             args.push(`${arg.Name};${arg.Type}`)
         }
 
-        if (i != 1) {appendLine(`---`)}
+        if (i != 1) { appendLine(`---`) }
         appendLine(`### ${e.Name}(${args.join(",")}) { event }\n`)
         appendLine(e.Description || "")
         appendLine(``)

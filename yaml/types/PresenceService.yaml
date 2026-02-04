@@ -27,7 +27,8 @@ Events: []
 IsStatic: true
 IsAbstract: false
 IsInstantiatable: false
-APIexclusive: false
 StaticAlias: Presence
-Description: PresenceService is a service that allows local scripts to set the active
-  status of the player. Which will be used to display in supported integrations.
+Description: PresenceService is a service that allows local scripts to set the
+  active status of the player. Which will be used to display in supported
+  integrations.
+APIexclusive: false

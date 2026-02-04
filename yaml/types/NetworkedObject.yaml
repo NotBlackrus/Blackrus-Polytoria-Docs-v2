@@ -18,11 +18,11 @@ Properties:
   - Name: Shared
     Type: ScriptSharedTable
     IsAccessibleByScripts: true
-    NoNetwork: true
-    IsReadOnly: false
+    IsReadOnly: true
     IsObsolete: false
     IsStatic: false
     Description: A shared table accessible by scripts.
+    NoNetwork: true
   - Name: NetworkedObjectID
     Type: string
     IsAccessibleByScripts: true

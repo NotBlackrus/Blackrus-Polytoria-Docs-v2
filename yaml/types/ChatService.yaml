@@ -7,10 +7,9 @@ Properties:
     IsReadOnly: false
     IsObsolete: false
     IsStatic: false
-    APIexclusive: false
     Description: >
-      A callback function that filters chat messages before they are
-      processed by the server, and displayed to other players.
+      A callback function that filters chat messages before they are processed
+      by the server, and displayed to other players.
 
       ```lua
 
@@ -23,6 +22,7 @@ Properties:
       end
 
       ```
+    APIexclusive: false
 Methods:
   - Name: BroadcastMessage
     ReturnType: nil

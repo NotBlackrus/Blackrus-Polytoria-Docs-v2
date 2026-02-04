@@ -49,10 +49,8 @@ Properties:
 Methods: []
 Events:
   - Name: Touched
-    Arguments:
-      Name: hit
-      Type: Instance
-    Description: Fires when this explosion affects a hit
+    Arguments: ""
+    Description: Missing Documentation
 IsStatic: false
 IsAbstract: false
 IsInstantiatable: true

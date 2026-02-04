@@ -30,10 +30,10 @@ Methods:
         IsOptional: false
         DefaultValue: ""
     IsAsync: true
-    APIexclusive: true
     IsObsolete: false
     IsStatic: false
     Description: Award achievement to the target user asynchronously.
+    APIexclusive: true
   - Name: HasAchievementAsync
     ReturnType: boolean
     Parameters:

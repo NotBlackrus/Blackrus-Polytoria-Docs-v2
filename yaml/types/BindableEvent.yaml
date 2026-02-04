@@ -23,6 +23,6 @@ IsStatic: false
 IsAbstract: false
 IsInstantiatable: true
 StaticAlias: null
-NoNetwork: true
 Description: BindableEvent is an event that can be called to communicate between
   scripts in the same boundary.
+NoNetwork: true
